@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <meta charset="utf-8">
@@ -49,7 +48,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://www.ucloud.cn/static/style/css/pages/active-hardware.css?v=2022071201"
+      href="https://www.ucloud.cn/static/style/css/pages/active-hardware.css?v=2022080301"
       rel="stylesheet"
     />
     <style>
@@ -107,10 +106,13 @@
         border-left: 16px solid rgba(236, 255, 229, 0.8);
       }
       .page-footer-copyright .copyright-main {
-        text-align: center;
+        padding: 60px 0 80px 0;
+        font-size: 0;
       }
       .page-footer-copyright .copyright-main a{
         vertical-align: unset;
+        font-size: 14px;
+        line-height: 24px;
       }
     </style>
   </head>
@@ -134,9 +136,6 @@
               <img src="https://static.ucloud.cn/a5dfd0dad327ca391efee8c71ef600a5.png" />
             </h1>
             <div class="subtitle">智能化的载体，可靠、低延迟的平行网络，带来更丝滑流畅的体验</div>
-            <a class="hardware-btn mt32" href="https://www.ucloud.cn/site/hardware/buy.html#/73867287215475272"
-              >立即购买</a
-            >
             <div class="video-wrap">
               <video
                 id="ubox-video-h5"
@@ -156,29 +155,34 @@
               无人化智能盒子安装在您无人操作的配送小车、清洁车、挖掘机、港口物流车、乘用车中，满足远程监控、远程遥控、自动驾驶的场景需求。它具有多条移动网络链路，能够并行工作、实时链路切换，以提供可靠、低延时的平行网络。同时提供最多8路、最高1080P实时低延时的视频监控能力，拥有强大的计算机视觉能力，提供智能的<span>视频输出</span>、<span>分析</span>、<span>转换</span>能力。并能够适配复杂的网络环境，提供便捷的组网功能。
             </div>
           </div>
-          <ul class="list">
-            <li>
-              <div class="wrap">
-                <img width="36" src="https://static.ucloud.cn/16672be73a68356355df6d1d4ef8d05c.png" />
-                <img height="24" src="https://static.ucloud.cn/1c02c4af7ed58201042b56f3f6578110.png" />
-                <p>自动识别摄像头，非常方便的对摄像头管理，快速远程开启/关闭摄像头，实时推流</p>
+          <div class="remote-driving">
+            <div class="new-main">
+              <div class="left">
+                <div class="list-title driving">双链路聚合 实时远程驾驶</div>
+                <p class="description">适配线控协议，提供控制接口，支持将远程控制指令快速、准确的转换为线控指令。搭配双链路聚合提供的强大网络能力，实现实时视频推流，超低延迟远程驾驶。</p>
+                <div class="remote-driving-notice">
+                  无人车无法识别障碍物、自动驾驶失效等需要人为干预驾驶的场景。双链路网络保障远程驾驶，避免类似<a href="https://www.wired.com/story/cruises-robot-car-outages/" target="_blank">旧金山robotaxi</a>故障的情况发生。
+                </div>
               </div>
-            </li>
-            <li>
-              <div class="wrap">
-                <img width="36" src="https://static.ucloud.cn/84f823fb4a7e9be12a6be1fbbb1e7e78.png" />
-                <img height="24" src="https://static.ucloud.cn/ef11f0e99174d1fd212f47665f30c034.png" />
-                <p>适配线控协议，将远程控制指令快速、准确的转换线控指令，提供控制接口</p>
+              <div class="right">
+                <img src="https://www-s.ucloud.cn/2022/08/ad218e4c2b937356b9d8db9420a95873_1659334339287.png" />
               </div>
-            </li>
-            <li>
-              <div class="wrap">
-                <img width="36" src="https://static.ucloud.cn/25b20a7c60ded38e6e68efb581c86a50.png" />
-                <img height="24" src="https://static.ucloud.cn/6a658c92dd2150486a2f68992a203fe6.png" />
-                <p>UBox本身自带强大的5G/4G路由器功能，将复杂的网络配置简化，轻松实现车内、车间、车外组网</p>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <div class="new-main">
+            <ul class="list">
+              <li>
+                <div class="list-title camera">一键开关摄像头 实时推流控制</div>
+                <p class="description">自动识别摄像头，非常方便的对摄像头管理，快速远程开启/关闭摄像头。</p>
+                <img class="img" src="https://www-s.ucloud.cn/2022/08/b3d7f61a13b307067c9bfa31d71519f5_1659334339290.png" />
+              </li>
+              <li>
+                <div class="list-title monitoring">轻松组网 实时数据监控</div>
+                <p class="description">具备强大的5G/4G路由器功能，简化网络配置，可实现车内、车间、车外组网。具备详细的实时数据监控。</p>
+                <img class="img" src="https://www-s.ucloud.cn/2022/08/47250d684ed51a350ccd2dbf63f30b93_1659334339278.png" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="tuiguang">
           <div class="new-main tc">
@@ -353,6 +357,25 @@
         <a href="https://www.ucloud.cn/yun/SoftwareDesign/">软件设计</a>
         <a href="https://www.ucloud.cn/yun/Others/">其他</a></t></li>
 </ul>
+<div class="page-footer-copyright">
+  <div class="copyright-main">
+    <div class="copyright-left">
+      <a class="icon__logo_new" href="https://www.ucloud.cn"> </a>
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002000058">沪公网安备 31011002000058号</a>
+      | <a href="https://beian.miit.gov.cn" target="_blank">沪ICP备12020087号-3</a>
+    </div>
+    <ul class="copyright-right">
+      <li>
+        <p class="lable">Email</p>
+        <p class="email">sergely.yan@ucloud.cn</p>
+      </li>
+      <li>
+        <p class="lable">Phone</p>
+        <p class="phone">13683371702</p>
+      </li>
+    </ul>
+  </div>
+</div>
 <!-- seo站隐藏外链 -->
 <!--baidu-->
 <script>
@@ -364,16 +387,7 @@
      s.parentNode.insertBefore(hm, s);
      })();
 </script>
-          <div class="page-footer-copyright">
-        <div class="copyright-main">
-            <a class="icon__logo_new" href="https://www.ucloud.cn"> </a>
-            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002000058">沪公网安备 31011002000058号</a>
-            | <a href="https://beian.miit.gov.cn" target="_blank">沪ICP备12020087号-3</a>
-        </div>
-    </div>
 </div>
-</body>
-</html>
     </div>
   </body>
 </html>
